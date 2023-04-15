@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use App\Contracts\DoServiceInterface;
 
 class User extends Authenticatable
 {
@@ -41,4 +42,22 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    protected $doService;
+
+    public function __construct(DoServiceInterface $doService) {
+        $this->doService = $doService;
+    }
+
+    public function getService(): DoServiceInterface {
+        return $this->doService;
+    }
+
+    public function setService(DoServiceInterface $doService): void {
+        $this->doService = $doService;
+    }
+
+    public function doSomething(): string {
+        return $this->doService->do();
+    }
 }

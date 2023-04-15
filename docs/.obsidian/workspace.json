@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation Guide.md",
+                "file": "Creating Contract Interfaces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5b7f24fd6fe588d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4a6e44ade2bc2d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Creating Contract Interfaces.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation Guide.md",
+                "file": "Creating Contract Interfaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation Guide.md",
+                "file": "Creating Contract Interfaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation Guide.md"
+                "file": "Creating Contract Interfaces.md"
               }
             }
           }
@@ -148,6 +166,8 @@
   },
   "active": "904b1f5fcab850e6",
   "lastOpenFiles": [
+    "[.md",
+    "Creating Contract Interfaces.md",
     "Documentation Guide.md"
   ]
 }
